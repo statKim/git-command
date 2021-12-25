@@ -12,6 +12,15 @@ git rm -r cached .
 git checkout <branch 이름>
 ```
 
+## Staged 되돌리기 (git add 취소하기)
+```bash
+# Staged된 모든 파일 취소
+git reset HEAD
+
+# 특정 파일만 취소
+git reset HEAD <파일명>
+```
+
 ## Commit 되돌리기
 ```bash
 # 가장 최근의 commit 취소
