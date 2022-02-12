@@ -42,3 +42,15 @@ git commit -m "commit 메세지"
 git push origin <branch 이름> -f
 git push origin +<branch 이름>
 ```
+
+## git pull할 때 merge 오류 무시하고 강제로 덮어쓰기
+```bash
+# git pull 받을 목록을 repo에서 업데이트
+git fetch --all
+
+# head를 최신으로 가르쳐서 덮어쓰기
+git reset --hard origin/main
+
+# 확인
+git pull
+```
