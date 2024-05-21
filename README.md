@@ -3,7 +3,7 @@
 
 ## 캐시(Cache) 제거하기
 ```bash
-git rm -r cached .
+git rm -r --cached .
 ```
 
 
